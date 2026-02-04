@@ -55,7 +55,7 @@ https://nog-live1-ott.izzigo.tv/2/out/u/dash/FOROTVHD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"61qNtkyhmSOJZy7blEfHEQ", "kid":"KowtUIg3f1H4Jdhx5Wi+GQ" } ], "type":"temporary" }
 https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd
 
-#EXTINF:-1 ch-number="6" tvg-id="Canal.Multimedios.Plus.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Multimedios_Canal_Seis_Logo.svg/500px-Multimedios_Canal_Seis_Logo.svg.png" group-title="MEXICO", Multimedios MX Plus
+#EXTINF:-1 ch-number="6" tvg-id="Canal.Multimedios.Plus.mx" tvg-logo="https://i.postimg.cc/C14YvVk9/canal-6-plus.png" group-title="MEXICO", Multimedios MX Plus
 #EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
 #EXTVLCOPT--http-reconnect=true
@@ -951,6 +951,7 @@ https://livecdn.enlace.plus/ejtv/smil:ejtv-hd.smil/chunklist_b2752000_sleng.m3u8
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8
+
 
 
 
