@@ -909,16 +909,16 @@ https://nog-live1-ott.izzigo.tv/4/out/u/dash/NATGEOHD/default.mpd
 
 #EXTINF:-1 ch-number="1" tvg-id="National Geographic Wild.mx"  tvg-logo="https://geo.edge.pontiscloud.com:9002/images/110/CH_LOGO/160/160/0/0/83674247072710.png" group-title="CULTURA", Nat Geo Wild
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://web.app.flow.com.ar/
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://web.app.flow.com.ar/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"hSwZNdEcPFPQoc7/O7O/Fg", "kid":"S+DGHO3cYilMyeI7Ynr1PQ" } ], "type":"temporary" }
 http://ecuatvip.com/EstoEsTv/98tnQmKnWJ/414420.ts
 
 #EXTINF:-1 ch-number="1" tvg-id="Love Nature"  tvg-logo="https://i.postimg.cc/d0VBQ4zD/lovenature2.png" group-title="CULTURA", Love Nature
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.sensa.com.ar/
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://player.sensa.com.ar/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=ea6437084f6c055c7c856f86361e86fa&key=9791c0e6f72b4a5eacf8bddfa5290209
-https://nog-live1-ott.izzigo.tv/2/out/u/dash/DISCOVERYTHEATERHD/default.mpd
+https://nog-live1-ott.izzigo.tv/2/out/u/dash/DISCOVERYTHEATERHD/default.mpd?|referer=https://player.sensa.com.ar/
 
 
 
@@ -943,6 +943,7 @@ https://livecdn.enlace.plus/ejtv/smil:ejtv-hd.smil/chunklist_b2752000_sleng.m3u8
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8
+
 
 
 
