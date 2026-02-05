@@ -55,7 +55,7 @@ https://nog-live1-ott.izzigo.tv/2/out/u/dash/FOROTVHD/default.mpd
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"61qNtkyhmSOJZy7blEfHEQ", "kid":"KowtUIg3f1H4Jdhx5Wi+GQ" } ], "type":"temporary" }
 https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd
 
-#EXTINF:-1 ch-number="6" tvg-id="Canal.Multimedios.Plus.mx" tvg-logo="https://i.postimg.cc/C14YvVk9/canal-6-plus.png" group-title="MEXICO", Multimedios MX Plus
+#EXTINF:-1 ch-number="6" tvg-id="Canal.Multimedios.Plus.mx" tvg-logo="https://i.postimg.cc/C14YvVk9/canal-6-plus.png" group-title="MEXICO", Multimedios 6+ Monterrey
 #EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
 #EXTVLCOPT--http-reconnect=true
@@ -65,12 +65,6 @@ https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"V+FXvP1ZZR5kmRH1E5ZWgA", "kid":"RMx9SjGj5pbTX2tu0FYb4Q" } ], "type":"temporary" }
 https://nog-live1-ott.izzigo.tv/3/out/u/dash/CANAL6PLUSHD/default.mpd
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Multimedios_Canal_Seis_Logo.svg/1144px-Multimedios_Canal_Seis_Logo.svg.png" group-title="", Canal 6
-#KODIPROP:inputstream.adaptive.stream_headers=referrer=https://www.izzigo.tv:user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ {"kty":"oct", "k":"v5eXU15imATPSPi2UwWCwQ", "kid":"ls5F+p4bcu9JuPV4SyGgAQ" } ], "type":"temporary" }
-https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/MULTIMEDIOS-RDF-HD/default.mpd
 
 #EXTINF:-1 ch-number="7" tvg-id="AZTECA 7.mx" tvg-logo="https://i.postimg.cc/jSsBxQZW/azteca7-logo-antes.png" group-title="MEXICO", Azteca 7
 #EXTVLCOPT:network-caching=1000
@@ -137,11 +131,12 @@ https://nog-live1-ott.izzigo.tv/4/out/u/dash/ONCEHD/default.mpd
 https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 
 #EXTINF:-1 ch-number="13" tvg-id="Canal13Yucatan.mx" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="MEXICO", Canal 13 Yucatan
-#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:network-caching=2000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
-https://vsd115.okcdn.ru/hls/10454955395802.m3u8/sig/4jVHa-0rido/expires/1770321064627/srcIp/201.148.8.15/urls/45.136.21.80/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
+https://vsd115.okcdn.ru/hls/10454955395802.m3u8/sig/rEc2tx6cIlw/expires/1770420274756/srcIp/201.148.8.15/urls/45.136.21.80/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
 
 #EXTINF:-1 ch-number="13" tvg-id="Canal13Yucatan.mx" tvg-logo="https://i.postimg.cc/pr2KqH51/487132275-1350451163279915-2917187620097115888-n.png" group-title="MEXICO", Sipse Merida
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
@@ -949,6 +944,7 @@ https://livecdn.enlace.plus/ejtv/smil:ejtv-hd.smil/chunklist_b2752000_sleng.m3u8
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8
+
 
 
 
