@@ -468,10 +468,7 @@ https://nog-live1-ott.izzigo.tv/3/out/u/dash/SKYLIVEEVENT8HD/default.mpd
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.izzigo.tv/
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"OMUz9EfH60wXayaEzDx28Q", "kid":"mXCTHXqNcgMzuNOvia9C2g" } ], "type":"temporary" }
-https://nog-live1-ott.izzigo.tv/7/out/u/dash/FOXSPORTSHDH265/default.mpd
+https://dish.akamaized.net/Content/DASH/Live/channel(foxsportshd)/variant.mpd
 
 #EXTINF:-1 ch-number="26" tvg-id="FOX SPORTS 2.mx" tvg-logo="https://i.postimg.cc/05DxXDd7/worldtv2.png" group-title="DEPORTES", FOX Sports 2 MEXICO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
@@ -944,6 +941,7 @@ https://livecdn.enlace.plus/ejtv/smil:ejtv-hd.smil/chunklist_b2752000_sleng.m3u8
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8
+
 
 
 
