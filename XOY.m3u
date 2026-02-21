@@ -91,15 +91,13 @@ https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/ADN-40-HD/default.mpd
 https://nog-live1-ott.izzigo.tv/1/out/u/dash/CANAL9HD/default.mpd
 
 #EXTINF:-1 ch-number="10" tvg-id="Canal.Milenio.TV.mx" tvg-logo="https://i.postimg.cc/hGvgwbcZ/Milenio-Television.png" group-title="MEXICO", Milenio Televisión
-#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:network-caching=2000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.izzigo.tv/
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"jL3Hngpk3Y0cO36oWDC9EA", "kid":"or/8vlnO6fECHaU7ltxuLA" } ], "type":"temporary" }
-https://nog-live1-ott.izzigo.tv/1/out/u/dash/MILENIOHD/default.mpd
+#KODIPROP:inputstream.adaptive.manifest_type=m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+https://mdstrm.com/live-stream-playlist/610178c7db32a4112d994650.m3u8
 
 #EXTINF:-1 ch-number="11" tvg-id="CANAL 11.mx" tvg-logo="https://i.postimg.cc/CKqxstvV/once.png" group-title="MEXICO", Canal Once
 #EXTVLCOPT:network-caching=1000
@@ -937,6 +935,7 @@ https://livecdn.enlace.plus/ejtv/smil:ejtv-hd.smil/chunklist_b2752000_sleng.m3u8
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8
+
 
 
 
