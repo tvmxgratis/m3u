@@ -66,7 +66,7 @@ https://mdstrm.com/live-stream-playlist/5f2d9d6ff17144074bd8a284.m3u8
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=m3u8
-https://mdstrm.com/live-stream-playlist/609b243156cca108312822a6.m3u8
+https://mdstrm.com/live-stream-playlist/609ad46a7a441137107d7a81.m3u8
 
 #EXTINF:-1 ch-number="8" tvg-id="ADN 40.mx" tvg-logo="https://i.postimg.cc/kM1Gg4hg/adn-noticias.png" group-title="MEXICO", adn Noticias
 #EXTVLCOPT:network-caching=1000
@@ -937,6 +937,7 @@ https://livecdn.enlace.plus/ejtv/smil:ejtv-hd.smil/chunklist_b2752000_sleng.m3u8
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8
+
 
 
 
