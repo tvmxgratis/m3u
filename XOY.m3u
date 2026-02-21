@@ -34,11 +34,9 @@ https://nog-live1-ott.izzigo.tv/3/out/u/dash/IMAGENTVHD/default.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.izzigo.tv/
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"nCAKKxINReYK9Qa+HXrZMg", "kid":"6jm5V19RuECli9qCnyDzjQ" } ], "type":"temporary" }
-https://nog-live1-ott.izzigo.tv/2/out/u/dash/FOROTVHD/default.mpd
+#KODIPROP:inputstream.adaptive.manifest_type=m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=
+https://notusaauth.univision.com/api/v3/akamai-auth/token-auth?url=https://channel02secure-notusa.akamaized.net/hls/live/2023914/event01/index_6.m3u8&redirect=true
 
 #EXTINF:-1 ch-number="5" tvg-id="CANAL 5.mx" tvg-logo="https://i.ibb.co/V310Z0q/canal5.png" group-title="MEXICO", Canal 5
 #EXTVLCOPT:network-caching=1000
@@ -935,6 +933,7 @@ https://livecdn.enlace.plus/ejtv/smil:ejtv-hd.smil/chunklist_b2752000_sleng.m3u8
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8
+
 
 
 
