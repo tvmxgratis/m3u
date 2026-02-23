@@ -95,16 +95,13 @@ https://nog-live1-ott.izzigo.tv/1/out/u/dash/CANAL9HD/default.mpd
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
 https://mdstrm.com/live-stream-playlist/610178c7db32a4112d994650.m3u8
 
-#EXTINF:-1 ch-number="11" tvg-id="CANAL 11.mx" tvg-logo="https://i.postimg.cc/CKqxstvV/once.png" group-title="MEXICO", Canal Once
+#EXTINF:-1 ch-number="11" tvg-id="TeleplaySureste.mx@SD" tvg-logo="https://i.postimg.cc/CKqxstvV/once.png" group-title="MEXICO", Teleplay Sureste Merida
 #EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.izzigo.tv/
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"AKOu5TGfIN3+KIJAaX9Vng", "kid":"xwsNVPWPbdTiBGv2QIR3Og" } ], "type":"temporary" }
-https://nog-live1-ott.izzigo.tv/4/out/u/dash/ONCEHD/default.mpd
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://player.tvstream.mx/livestream/teleplay/livehd/playlist.m3u8
 
 #EXTINF:-1 ch-number="12" tvg-logo="https://i.postimg.cc/SKhsnrkc/Logo-Tele-Yucatan-6902b04063cc8.png" group-title="MEXICO", Tele Yucatan
 #EXTVLCOPT:network-caching=1000
@@ -112,7 +109,6 @@ https://nog-live1-ott.izzigo.tv/4/out/u/dash/ONCEHD/default.mpd
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 
 #EXTINF:-1 ch-number="13" tvg-id="Canal13Yucatan.mx" tvg-logo="https://canal13mexico.com/wp-content/uploads/2024/04/cropped-LOGO-CANAL-TRECE.png" group-title="MEXICO", Canal 13 Yucatan
@@ -120,8 +116,8 @@ https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #EXTVLCOPT--http-reconnect=true
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-https://vsd115.okcdn.ru/hls/10454955395802.m3u8/sig/rEc2tx6cIlw/expires/1770420274756/srcIp/201.148.8.15/urls/45.136.21.80/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://vsd115.okcdn.ru/hls/10454955395802.m3u8/sig/rEc2tx6cIlw/expires/1767777414/srcIp/201.148.8.15/urls/45.136.21.80/clientType/0/srcAg/CHROME/mid/10849691639514/10454955395802_high/index.m3u8
 
 #EXTINF:-1 ch-number="13" tvg-id="Canal13Yucatan.mx" tvg-logo="https://i.postimg.cc/pr2KqH51/487132275-1350451163279915-2917187620097115888-n.png" group-title="MEXICO", Sipse Merida
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.73 Mobile Safari/537.36
@@ -930,6 +926,7 @@ https://livecdn.enlace.plus/ejtv/smil:ejtv-hd.smil/chunklist_b2752000_sleng.m3u8
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8
+
 
 
 
